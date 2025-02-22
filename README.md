@@ -45,5 +45,5 @@ _The output displayed after the AI generates the story from the prompt._
 
 ## **Attributions**
 - **StoryCraft AI Logo:** Generated using [DALL·E](https://openai.com/dall-e) by OpenAI.
-- ![StoryCraft Logo](assets/logo2.png)
+- ![StoryCraft Logo](assets/logo.png)
 
