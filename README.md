@@ -32,7 +32,7 @@ _The output displayed after the AI generates the story from the prompt._
 ---
 
 ## 🖥️ **Backend**
-- **Flask/Django**: Python-based frameworks to build APIs and web applications.
+- **Flask**: Python-based frameworks to build APIs and web applications.
 
 ---
 
