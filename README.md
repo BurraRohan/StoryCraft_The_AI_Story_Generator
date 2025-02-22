@@ -22,7 +22,7 @@ _Screenshot showing the application during the text generation phase._
 ![After the Output is Generated](assets/output_generated.png)  
 _The output displayed after the AI generates the story from the prompt._
 
-### 5 **After the Output is Generated**
+### 5️⃣ **After the Output is Generated**
 ![After the Output is Generated](assets/interface_after_execution.png)  
 _The interface is reset after the reset button is hit._
 
