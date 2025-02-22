@@ -1,6 +1,6 @@
 # AI Story Generator
 
-Using simple prompts, you can develop small snippets of stories that you can work further on.
+ A simple where users can use simple prompts to develop small snippets of stories that the user can work on further.
 
 ---
 
