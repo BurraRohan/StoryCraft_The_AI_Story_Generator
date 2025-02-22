@@ -18,7 +18,7 @@ _The user interface showing the input field where the prompt is added._
 ![During the Generation Phase](assets/during_generation.png)  
 _Screenshot showing the application during the text generation phase._
 
-### 4️⃣ **After the Output is Generated**
+### 4️⃣ **After the Reset button is hit**
 ![After the Output is Generated](assets/output_generated.png)  
 _The output displayed after the AI generates the story from the prompt._
 
