@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Story Generator</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>AI Story Generator</h1>
+      <textarea id="prompt" placeholder="Enter a story prompt..."></textarea>
+      <select id="genre">
+        <option value="gangster">Gangster</option>
+        <option value="horror">Horror</option>
+        <option value="psychological-thriller">Psychological Thriller</option>
+        <option value="thriller">Thriller</option>
+        <option value="mystery">Mystery</option>
+      </select>
+      <button onclick="generateStory()">Generate Story</button>
+      <button onclick="resetFields()" class="reset-btn">Reset</button>
+      <div id="story-output"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
