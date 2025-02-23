@@ -12,11 +12,7 @@
   <body>
     <div class="container">
       <h1>AI Story Generator</h1>
-
-      <label for="prompt">Enter a Story Prompt:</label>
-      <textarea id="prompt" placeholder="Once upon a time..."></textarea>
-
-      <label for="genre">Select Genre:</label>
+      <textarea id="prompt" placeholder="Enter a story prompt..."></textarea>
       <select id="genre">
         <option value="gangster">Gangster</option>
         <option value="horror">Horror</option>
@@ -24,24 +20,10 @@
         <option value="thriller">Thriller</option>
         <option value="mystery">Mystery</option>
       </select>
-
-      <div class="button-group">
-        <button onclick="generateStory()">Generate Story</button>
-        <button onclick="resetFields()" class="reset-btn">Reset</button>
-        <button
-          id="regenerate-btn"
-          onclick="regenerateStory()"
-          style="display: none"
-        >
-          Regenerate
-        </button>
-        <button onclick="resetFields()" class="reset-btn">Reset</button>
-      </div>
-
-      <h2>Generated Story:</h2>
+      <button onclick="generateStory()">Generate Story</button>
+      <button onclick="resetFields()" class="reset-btn">Reset</button>
       <div id="story-output"></div>
     </div>
-
     <script src="{{ url_for('static', filename='script.js') }}"></script>
   </body>
 </html>
