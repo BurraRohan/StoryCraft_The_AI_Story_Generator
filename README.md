@@ -26,10 +26,6 @@ _The output displayed after the AI generates the story from the prompt._
 ![After the Output is Generated](assets/interface_after_execution.png)  
 _The interface is reset after the reset button is hit._
 
-### 5️⃣ **Regenerate Button is clicked it generates a new story**
-![After the Output is Generated](assets/interface_after_execution.png)  
-_The interface is reset after the reset button is hit._
-
 ---
 
 ## 🌐 **Frontend**
