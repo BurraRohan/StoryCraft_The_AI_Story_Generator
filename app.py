@@ -40,18 +40,30 @@ def home():
 def generate():
     """Generate AI story based on user input."""
     data = request.json
-    prompt = data.get("prompt", "")
-    genre = data.get("genre", "")
-    
+    prompt = data.get("prompt", "").strip()
+    genre = data.get("genre", "").strip().lower()  # Normalize genre input
+
     if not prompt:
         return jsonify({"error": "Prompt is required"}), 400
-    
-    # Combine prompt and genre for better context
-    input_text = f"Write a {genre} story: {prompt}"
+
+    # Custom instructions for each genre
+    genre_templates = {
+        "gangster": "Write a gritty and suspenseful gangster crime story with mob bosses and betrayals: ",
+        "horror": "Write a spine-chilling horror story that builds tension and fear: ",
+        "psychological-thriller": "Write a mind-twisting psychological thriller filled with unexpected twists: ",
+        "thriller": "Write an action-packed thriller with high tension and suspense: ",
+        "mystery": "Write a mysterious detective story full of secrets and surprises: ",
+        "drama": "Write an emotional and character-driven drama story: ",
+        "period action": "Write a historical action-adventure with epic battles and warriors: ",
+        "comedy": "Write a funny and entertaining comedy story with witty humor: "
+    }
+
+    # Use the predefined template if available; otherwise, fall back to generic format
+    input_text = genre_templates.get(genre, f"Write a {genre} story: ") + prompt
+
     story = generate_story(input_text)
-    
+
     return jsonify({"story": story})
 
 if __name__ == '__main__':
     app.run()
-
