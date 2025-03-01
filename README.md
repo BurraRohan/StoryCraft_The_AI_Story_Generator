@@ -14,15 +14,19 @@ _The interface displayed after executing the AI Story Generator._
 ![Adding the Prompt](assets/adding_prompt.png)  
 _The user interface showing the input field where the prompt is added._
 
-### 3️⃣ **During the Generation Phase**
+### 3️⃣ **Adding the genre**
+![Adding the Genre](assets/drop_down_menu.png)  
+_The user interface showing the input field where the prompt is added._
+
+### 4️⃣ **During the Generation Phase**
 ![During the Generation Phase](assets/during_generation.png)  
 _Screenshot showing the application during the text generation phase._
 
-### 4️⃣ **After the Output is Generated**
+### 5️⃣ **After the Output is Generated**
 ![After the Output is Generated](assets/output_generated.png)  
 _The output displayed after the AI generates the story from the prompt._
 
-### 5️⃣ **After the reset button is hit**
+### 6️⃣ **After the reset button is hit**
 ![After the Output is Generated](assets/interface_after_execution.png)  
 _The interface is reset after the reset button is hit._
 
