@@ -53,6 +53,6 @@ _The interface is reset after the reset button is hit._
 
 ## **Attributions**
 - **StoryCraft AI Logo:** Generated using [DALL·E](https://openai.com/dall-e) by OpenAI.
-  <img src="assets/logo.png" alt="StoryCraft Logo" width="200">
+- <img src="assets/logo.png" alt="StoryCraft Logo" width="200">
   
 
