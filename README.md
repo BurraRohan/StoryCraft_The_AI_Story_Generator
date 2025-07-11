@@ -12,7 +12,7 @@ _The interface displayed after executing the AI Story Generator._
 
 ### 2️⃣ **Adding the genre**
 ![Adding the Genre](assets/drop_down_menu.png)  
-_The user interface showing the input field where the prompt is added._
+_The user interface showing the input field where the genre is added._
 
 ### 3️⃣ **Adding the Prompt**
 ![Adding the Prompt](assets/adding_prompt.png)  
